@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div id="popup-content">
+      <div id="range-select-wrapper">
+        <div class="input-wrapper" id="start-time-wrapper">
+          <div id="start-time-label">Start Time</div>
+          <input type="time" id="start-time">
+        </div>
+        <div class="input-wrapper" id="end-time-wrapper">
+          <div id="end-time-label">End Time</div>
+          <input type="time" id="end-time">
+        </div>
+      </div>
+      <div class="input-wrapper check-wrapper" id="any-times-wrapper">
+        <input type="checkbox" id="any-times-box">
+        <div id="any-times-label">Any Time</div>
+
+      </div>
+      <div id="amount-time-label">Amount of Time</div>
+      <div class="input-wrapper" id="amount-hours-wrapper">
+        <div class="time-wrapper"> 
+          <div id="amount-hours-label">Hours</div>
+          <input type="number" id="amount-hours">
+        </div>
+        <div class="time-wrapper">
+          <div id="amount-minutes-label-2">Minutes</div>
+          <input type="number" id="amount-minutes">
+        </div>
+      </div>
+      <div class="input-wrapper check-wrapper" id="full-range-wrapper">
+        <input type="checkbox" id="full-range-box">
+        <div id="full-range-label">Full Range of Time</div>
+      </div>
+      <button id="go-button">Go</button>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
